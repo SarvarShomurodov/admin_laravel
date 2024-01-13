@@ -4,6 +4,9 @@
     --light: #F0FBFC;
     --dark: #181d38;
 }
+#exampleModal{
+    margin-left: -90px;
+}
 #phone_modal{
     width: 149%;
 }
@@ -14,7 +17,10 @@
     font-size: 20px;
     color: #0abbcd;
 }
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1000px){
+    #exampleModal{
+        margin-left: 2px;
+    }
     #phone_modal{
         width: 100%;
         margin-left: 1px !important;
@@ -39,7 +45,7 @@
         margin-left: -35px !important;
     }
     #call_modal2{
-        margin-left: 13px !important;
+        margin-left: -22px !important;
     }
     #modal_korup{
         margin-left: -35px;
@@ -48,19 +54,22 @@
         margin-left: 49px !important;
     }
     #a1{
-        margin-left: -52px !important;
+        margin-left: 2px !important;
     }
     #phone2{
         margin-left: -35px !important;
     }
     #suvniasra{
-        margin-left: -3px !important;
+        margin-left: -48px !important;
     }
     .TermizSuv{
-        margin-left: 9% !important;
+        margin-left: 55% !important;
     }
 }
 @media only screen and (max-width: 620px){
+    #exampleModal{
+        margin-left: 129px;
+    }
     #phone_modal{
         width: 50%;
         margin-left: 45%;

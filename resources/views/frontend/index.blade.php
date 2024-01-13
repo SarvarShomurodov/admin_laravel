@@ -2,7 +2,7 @@
 @section('title','Home Page')
 @section('content')
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-left: -90px;">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="">
         <div class="modal-dialog">
                 <div id="phone_modal" class="modal-content">
                     <div class="modal-header">
