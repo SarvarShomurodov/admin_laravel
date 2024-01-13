@@ -2,58 +2,58 @@
 @section('title','Home Page')
 @section('content')
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-left: -90px;margin-top: 225px;">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-left: -90px;">
         <div class="modal-dialog">
-            <div class="modal-content" style="width: 777px;">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Suv ta'minoti haqida savollaringiz bormi?</h5>
-                   <i data-bs-dismiss="modal" style="font-size: 20px;color: #0abbcd;" class="fa-solid fa-rectangle-xmark"></i>
+                <div id="phone_modal" class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Suv ta'minoti haqida savollaringiz bormi?</h5>
+                       <i id="close_modal" data-bs-dismiss="modal" style="" class="fa-solid fa-rectangle-xmark"></i>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div id="call_modal" class="col-2"><i class="fa-solid fa-phone-volume" style="margin-left:-4px;font-size: 45px;color: #0abbcd;"></i></div>
+                            <div id="call_modal2" class="col-8" style="margin-left: -63px;margin-top: 2px;"><i class="fa-solid fa-1" style="font-size: 20px;color: #0abbcd;"></i><i class="fa-solid fa-2" style="font-size: 20px;color: #0abbcd;"></i><i class="fa-solid fa-5" style="font-size: 20px;color: #0abbcd;"></i><i class="fa-solid fa-5" style="font-size: 20px;color: #0abbcd;"></i><h6 class="modal_alert">Qisqa raqamga qo'ng'iroq qiling</h6></div>
+                        </div>
+                        <br>
+                        <div id="row_flex" class="row">
+                            <div class="col-6"><i class="fa-brands fa-telegram" style="font-size: 40px;color: #0abbcd;"></i><p style="margin-left: 47px;margin-top: -43px;">Telegram orqali suhbat
+                                    <br><a href="https://t.me/+GJprgH9yImQ2MjIy">t.me / termizsuv</a></p></div>
+                            <div class="col-6"><i class="fa-solid fa-robot" style="font-size: 35px;color: #0abbcd;"></i><p style="margin-left: 48px;margin-top: -40px;">Telegram botimizdan foydalaning! <br><a href="https://t.me/+GJprgH9yImQ2MjIy">t.me / termizsuvbot</a></p></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="modal-body">
+                        <div class="row">
+                           <h5 id="modal_korup" class="modal-title" style="margin-right: 382px;">Korrupsiya holatiga duch keldingizmi?</h5>
+                        </div>
+                        <br>
+                        <div id="row_flex" class="row">
+                            <div class="col-6"><i class="fa-solid fa-phone-volume" style="font-size: 40px;color: #0abbcd;"></i><p style="margin-left: 47px;margin-top: -43px;">
+                                    <i class="fa-regular fa-plus" style="font-size: 15px;color: #0abbcd;"></i>
+                                    <i class="fa-solid fa-9" style="font-size: 15px;color: #0abbcd;"></i>
+                                    <i class="fa-solid fa-9" style="font-size: 15px;color: #0abbcd;"></i>
+                                    <i class="fa-solid fa-8" style="font-size: 15px;color: #0abbcd;"></i>
+                                    <i class="fa-solid fa-5" style="font-size: 15px;color: #0abbcd;"></i>
+                                    <i class="fa-solid fa-5" style="font-size: 15px;color: #0abbcd;"></i>
+                                    <i class="fa-solid fa-5" style="font-size: 15px;color: #0abbcd;"></i>
+                                    <i class="fa-solid fa-0" style="font-size: 15px;color: #0abbcd;"></i>
+                                    <i class="fa-solid fa-3" style="font-size: 15px;color: #0abbcd;"></i>
+                                    <i class="fa-solid fa-1" style="font-size: 15px;color: #0abbcd;"></i>
+                                    <i class="fa-solid fa-0" style="font-size: 15px;color: #0abbcd;"></i>
+                                    <i class="fa-solid fa-5" style="font-size: 15px;color: #0abbcd;"></i>
+                                    <i class="fa-solid fa-5" style="font-size: 15px;color: #0abbcd;"></i>
+                            <br>Ishonch raqami orqali xabar bering</p></div>
+                            <div class="col-6"><i class="fa-solid fa-robot" style="font-size: 35px;color: #0abbcd;"></i><p id="p1" style="margin-left: 57px;margin-top: -43px;">Telegram botimizdan foydalaning! <br><a id="a1" href="https://t.me/+GJprgH9yImQ2MjIy">t.me/UzsuvAnticorruptionBot</a></p></div>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div id="phone2" class="col-2"><i class="fa-solid fa-mobile-screen-button" style="color: #0abbcd;font-size: 157%;"></i></div>
+                            <div id="suvniasra" class="col-8" style="margin-left: -92px;margin-top: 2px;"><p style="font-size: 92%;">“Suvniasra” mobil ilovamiz orqalik ko‘plab savollaringizga javob bor.</p></div>
+                            <div class="TermizSuv" style="margin-left: 64%;margin-top: 1%"> <h2 class="m-0 text-primary"><i class="fa-solid fa-droplet"></i> TermizSuv</h2></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-2"><i class="fa-solid fa-phone-volume" style="margin-left:-4px;font-size: 45px;color: #0abbcd;"></i></div>
-                        <div class="col-8" style="margin-left: -63px;margin-top: 2px;"><i class="fa-solid fa-1" style="font-size: 20px;color: #0abbcd;"></i><i class="fa-solid fa-2" style="font-size: 20px;color: #0abbcd;"></i><i class="fa-solid fa-5" style="font-size: 20px;color: #0abbcd;"></i><i class="fa-solid fa-5" style="font-size: 20px;color: #0abbcd;"></i><h6 class="modal_alert">Qisqa raqamga qo'ng'iroq qiling</h6></div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-6"><i class="fa-brands fa-telegram" style="font-size: 40px;color: #0abbcd;"></i><p style="margin-left: 47px;margin-top: -43px;">Telegram orqali suhbat
-                                <br><a href="https://t.me/+GJprgH9yImQ2MjIy">t.me / termizsuv</a></p></div>
-                        <div class="col-6"><i class="fa-solid fa-robot" style="font-size: 40px;color: #0abbcd;"></i><p style="margin-left: 57px;margin-top: -43px;">Telegram botimizdan foydalaning! <br><a href="https://t.me/+GJprgH9yImQ2MjIy">t.me / termizsuvbot</a></p></div>
-                    </div>
-                </div>
-                <hr>
-                <div class="modal-body">
-                    <div class="row">
-                       <h5 class="modal-title" style="margin-right: 382px;">Korrupsiya holatiga duch keldingizmi?</h5>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-6"><i class="fa-solid fa-phone-volume" style="font-size: 40px;color: #0abbcd;"></i><p style="margin-left: 47px;margin-top: -43px;">
-                                <i class="fa-regular fa-plus" style="font-size: 15px;color: #0abbcd;"></i>
-                                <i class="fa-solid fa-9" style="font-size: 15px;color: #0abbcd;"></i>
-                                <i class="fa-solid fa-9" style="font-size: 15px;color: #0abbcd;"></i>
-                                <i class="fa-solid fa-8" style="font-size: 15px;color: #0abbcd;"></i>
-                                <i class="fa-solid fa-5" style="font-size: 15px;color: #0abbcd;"></i>
-                                <i class="fa-solid fa-5" style="font-size: 15px;color: #0abbcd;"></i>
-                                <i class="fa-solid fa-5" style="font-size: 15px;color: #0abbcd;"></i>
-                                <i class="fa-solid fa-0" style="font-size: 15px;color: #0abbcd;"></i>
-                                <i class="fa-solid fa-3" style="font-size: 15px;color: #0abbcd;"></i>
-                                <i class="fa-solid fa-1" style="font-size: 15px;color: #0abbcd;"></i>
-                                <i class="fa-solid fa-0" style="font-size: 15px;color: #0abbcd;"></i>
-                                <i class="fa-solid fa-5" style="font-size: 15px;color: #0abbcd;"></i>
-                                <i class="fa-solid fa-5" style="font-size: 15px;color: #0abbcd;"></i>
-                        <br>Ishonch raqami orqali xabar bering</p></div>
-                        <div class="col-6"><i class="fa-solid fa-robot" style="font-size: 40px;color: #0abbcd;"></i><p style="margin-left: 57px;margin-top: -43px;">Telegram botimizdan foydalaning! <br><a href="https://t.me/+GJprgH9yImQ2MjIy">t.me/UzsuvAnticorruptionBot</a></p></div>
-                    </div>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-2"><i class="fa-solid fa-mobile-screen-button" style="color: #0abbcd;font-size: 157%;"></i></div>
-                        <div class="col-8" style="margin-left: -92px;margin-top: 2px;"><p style="font-size: 92%;">“Suvniasra” mobil ilovamiz orqalik ko‘plab savollaringizga javob bor.</p></div>
-                        <div style="margin-left: 64%;margin-top: 1%"> <h2 class="m-0 text-primary"><i class="fa-solid fa-droplet"></i> TermizSuv</h2></div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 <div class="container-fluid p-0 mb-5">

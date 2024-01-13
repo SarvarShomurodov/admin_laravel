@@ -4,6 +4,109 @@
     --light: #F0FBFC;
     --dark: #181d38;
 }
+#phone_modal{
+    width: 149%;
+}
+.modal-title{
+    font-family: "Heebo",sans-serif; font-size: 24px; font-style: normal; font-weight: 600; line-height: 34px; letter-spacing: 0em; text-align: left; color: #3e4d63;
+}
+#close_modal{
+    font-size: 20px;
+    color: #0abbcd;
+}
+@media only screen and (max-width: 900px){
+    #phone_modal{
+        width: 100%;
+        margin-left: 1px !important;
+    }
+    .modal-title{
+        font-size: 100%;
+    }
+    /* #close_modal{
+        margin-right: 420px;
+    } */
+    #row_flex{
+        flex-direction: column;
+        margin-left: -46px;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .modal-header{
+        margin-left: 0px !important;
+    }
+    #call_modal{
+        margin-left: -35px !important;
+    }
+    #call_modal2{
+        margin-left: 13px !important;
+    }
+    #modal_korup{
+        margin-left: -35px;
+    }
+    #p1{
+        margin-left: 49px !important;
+    }
+    #a1{
+        margin-left: -52px !important;
+    }
+    #phone2{
+        margin-left: -35px !important;
+    }
+    #suvniasra{
+        margin-left: -3px !important;
+    }
+    .TermizSuv{
+        margin-left: 9% !important;
+    }
+}
+@media only screen and (max-width: 620px){
+    #phone_modal{
+        width: 50%;
+        margin-left: 45%;
+    }
+    .modal-title{
+        font-size: 100%;
+    }
+    /* #close_modal{
+        margin-right: 420px;
+    } */
+    #row_flex{
+        flex-direction: column;
+        margin-left: -46px;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .modal-header{
+        margin-left: 0px !important;
+    }
+    #call_modal{
+        margin-left: -35px !important;
+    }
+    #call_modal2{
+        margin-left: 13px !important;
+    }
+    #modal_korup{
+        margin-left: -35px;
+    }
+    #p1{
+        margin-left: 49px !important;
+    }
+    #a1{
+        margin-left: -52px !important;
+    }
+    #phone2{
+        margin-left: -35px !important;
+    }
+    #suvniasra{
+        margin-left: -3px !important;
+    }
+    .TermizSuv{
+        margin-left: 9% !important;
+    }
+
+}
 .modal-header{
     margin-left: 35px;
 }
@@ -18,9 +121,7 @@
     margin-right: 382px;
     font-family: "Heebo",sans-serif;
 }
-.modal-title{
-    font-family: "Heebo",sans-serif; font-size: 24px; font-style: normal; font-weight: 600; line-height: 34px; letter-spacing: 0em; text-align: left; color: #3e4d63;
-}
+
 /*.modal_alert{*/
 /*    font-family: 'Nunito', sans-serif;*/
 /*    color: red;*/
