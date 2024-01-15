@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-2">
         </div>
-        <div style="margin-top: 12px;" class="col-2">
+        <div id="document3" style="margin-top: 12px;" class="col-2">
             <div class="container-xxl py-1">
                 <div class="col-lg-3 col-md-6">
                     <div style="margin-top: 100px;margin-right: -200px;" class="team-item bg-light">
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-6">
+        <div id="document2" class="col-6">
             <div class="container-xxl py-1">
                 <div class="container">
                     <div>
@@ -31,7 +31,7 @@
                         <h6  style="color:#3e4d63" class="mb-5">O`zbek tilidagi hujjatlar</h6>
                         <h5 class="mb-5">Biriktirilgan hujjatlar</h5>
                     </div>
-                    <div class="row g-4">
+                    <div id="document1" class="row g-4">
                         @foreach($documents as $document)
                             <div class="col-lg-3 wow fadeInUp">
                                 <div class="team-item bg-light" style="width: 100%; height: 100%">

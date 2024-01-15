@@ -116,6 +116,29 @@
     }
 
 }
+
+#document2{
+    margin-left: 0%;
+}
+
+#document3{
+    margin-left: 0px;
+}
+@media only screen and (min-width:1000px){
+    #document2
+    {
+        margin-left: 70px !important;
+    }
+    #document1{
+        width: 718px !important;
+    }
+    #document3{
+        margin-left: -173px;
+    }
+}
+
+
+
 .modal-header{
     margin-left: 35px;
 }
